@@ -1,0 +1,14 @@
+
+character = {'strength':15,'dexterity':13, 'constitution':6, 'intelligence':5, 'wisdom':12, 'charisma':13}
+for i in character.values():
+    print(i)
+
+if 'strength' not in character:
+    print('strength is not a character stat')
+else:
+    print(character['strength'])
+
+if 'speed' not in character:
+    print('speed is not a character stat')
+else:
+    print(character['speed'])
